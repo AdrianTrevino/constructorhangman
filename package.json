@@ -1,0 +1,23 @@
+{
+  "name": "constructorhangman",
+  "version": "1.0.0",
+  "description": "A construvtor Hangman Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianTrevino/constructorhangman.git"
+  },
+  "author": "Adrian Trevino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianTrevino/constructorhangman/issues"
+  },
+  "homepage": "https://github.com/AdrianTrevino/constructorhangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "prompt": "^1.0.0"
+  }
+}
