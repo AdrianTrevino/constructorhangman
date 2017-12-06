@@ -37,6 +37,7 @@ console.log("**************************************")
 			return err;
 		}
 		//boolean for comparison
+		//removes a guess if user is wrong
 		if(hangmanGame.currentWord.foundIt(result.theGuess) == false){
 			guesses --;
 		}

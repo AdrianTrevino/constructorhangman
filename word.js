@@ -18,7 +18,7 @@ var Word = function(words){
 	}
 	this.grabLetters();
 //grabbing letters to guess from array
-	this.foundIt = function(guessLetter){
+	this.letterFound = function(guessLetter){
 		for(var i = 0; i <this.guesses.length; i++){
 			if(guessLetter == this.guesses[i]){
 				return true;
